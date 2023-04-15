@@ -1,0 +1,296 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  #FFFFFF;
+    overflow-x: hidden;
+}
+
+@font-face{
+    font-family: Poppins;
+    src:url(Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face{
+    font-family: Montserrate;
+    src:url(Montserrat-VariableFont_wght.ttf);
+}
+
+.header {
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgb(245, 218, 218), white);
+    box-shadow: 0px 4px 16px rgba(75, 0, 129, 0.26);
+}
+
+.head{
+    width: 800px;
+    height: 90px;
+    color: rgb(0, 179, 255);
+    font-family: Poppins;
+    font-style: normal;
+    margin-left: 90px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.register{
+    width: 200px;
+    margin-left: 30px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.icon{
+    width: 35px;
+    height: 30px;
+    margin-top: 10px;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.text{
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.add{
+    width: 170px;
+    display: flex;
+}
+
+.add1{
+    height:30px ;
+    width: 45px;
+    margin-top: 55px;
+    gap: 20px;
+}
+
+.text2{
+    margin-left: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    padding-bottom: 25px;
+}
+
+.box{
+    width: 100%;
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    margin-left: 45px;
+}
+
+.box1{
+    margin-top: 50px;
+}
+
+.signup, .signin{    
+    width: 220px;
+    height: 35px;
+    background: #E6E6E6;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0.02em;
+    font-family: Poppins;
+    font-style: normal;
+    margin-left: -30px;
+}
+
+.signin{
+    background: #EAF6FF;
+}
+.create{
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    font-family: popins-medium;
+    line-height: 48px;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+
+.text12{
+    font-weight: 300;
+    font-size: 16px;
+    color: #8D8D8D;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: 24px;
+    margin-top: 0;
+
+}
+
+form{
+    margin-top: 68px;
+    width: 410px;
+    height: 560px;
+}
+
+input{
+    height: 40px;
+    width: 410px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+}
+label{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.02em;
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.butcreate{
+    margin-top: 69px;
+    width: 420px;
+    height: 52px;
+    background: #FC0B0D;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.butsign{
+    margin-top: 20px;
+    width: 420px;
+    height: 52px;
+    border: 1px solid #8D8D8D;
+    border-radius: 20px;
+    background: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FC0B0D;
+    letter-spacing: 0.02em;
+    font-family: Poppins;
+    font-style: normal;
+}
+.G{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 65px;
+}
+.text2{
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.02em;
+    font-family: popins-regular;
+}
+.span1{
+    color: rgba(62, 193, 243, 1);
+}
+footer{
+    width: 100%;
+    height: 280px;
+    background: #EAF6FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin-top: 840px;
+}
+.header2{
+    font-weight: 400;
+    font-size: 38px;
+    color: #000000;
+    font-family: Inter;
+    font-style: normal;
+}
+.text3{
+    font-weight: 400;
+    font-size: 15px;
+    color: #504A41;
+    font-family: Montserrate;
+    font-style: normal;
+    line-height: 22px;
+}
+
+h4{
+    font-family: 'Montserrate';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.phone{
+    width: 15px;
+    height: 15px;
+}
+.phonen{
+    margin-left: 30px;
+    margin-top: -15px;
+    font-family: 'Montserrate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+.sms{
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+}
+.mail{
+    margin-left: 30px;
+    margin-top: -20px;
+    font-family: 'Montserrate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+.loc{
+    width: 15px;
+    height: 18px;
+    margin-top: 15px;
+}
+.address{
+    margin-left: 30px;
+    margin-top: -20px;
+    font-family: 'Montserrate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.part3{
+    margin-right: 90px;
+    width: 250px;
+    height: 250px;
+}
+
+.sup{
+    font-family: 'Montserrate';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.about{
+    margin-top: -60px;
+}
